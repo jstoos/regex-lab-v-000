@@ -24,5 +24,5 @@ def first_word_capitalized_and_ends_with_punctuation?(sentence)
 end
 
 def valid_phone_number?(number)
-  number.match(/.?(\d{3}).*(\d{3}).(\d{4})/)
+  number.match(/.?(\d{3}).?(\d{3}).?(\d{4})/)
 end
