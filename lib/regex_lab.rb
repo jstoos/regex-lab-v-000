@@ -18,7 +18,5 @@ end
 def first_word_capitalized_and_ends_with_punctuation?(sentence)
   if sentence.match(/\b[A-Z].*[.!?]/) !=nil
     true
-  else
-    false
   end
 end
